@@ -18,16 +18,16 @@ Monte Carlo integration methods are algorithms to find an approximate evaluation
 
 ### Steps to the  Montecarlo integrate:    
 The Monte Carlo method can be used to numerically approximate the value of a double integral. For a function of two variables the steps are:  
-1. Pick n randomly distributed points  <img src="img/eq_1.png" height=20 width=100> in the rectangle.  
+1. Pick n randomly distributed points  <img src="img/eq_1.png" height=20 width=120> in the rectangle.  
 2. Determine the average value of the function  
-<center> <img src="img/eq_2.png" height=40 width=70>  </center>
+<p align="center"><img src="img/eq_2.png" height=35 width=120><p>
 3. Compute the approximation to the integral  
-<center><img src="img/eq_2.png" height=30 width=100></center>  
+<p align="center"><img src="img/eq_3.png" height=35 width=200></p> 
 4. An estimate for the error is
-<center><img src="img/eq_3.png" height=30 width=100 /><p>, where: </p><img src="img/eq_4.png" height=25 width=70 /></center>
+<p align="center"><img src="img/eq_4.png" height=35 width=200 /> where: <img src="img/eq_5.png" height=30 width=120 /></p>
 
 ### Example of Montecarlo double integral 
-<center><img src="img/eq_6.png" height=40 width=200/></center>
+<p align="center"><img src="img/eq_6.png" height=50 width=300/></p>
 
 
 ```python
