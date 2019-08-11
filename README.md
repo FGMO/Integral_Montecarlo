@@ -24,7 +24,7 @@ The Monte Carlo method can be used to numerically approximate the value of a dou
 3. Compute the approximation to the integral  
 <p align="center"><img src="img/eq_3.png" height=30 width=100></p> 
 4. An estimate for the error is
-<p align="center"><img src="img/eq_3.png" height=30 width=100 /> where: <img src="img/eq_4.png" height=25 width=70 /></p>
+<p align="center"><img src="img/eq_4.png" height=30 width=100 /> where: <img src="img/eq_5.png" height=25 width=70 /></p>
 
 ### Example of Montecarlo double integral 
 <p align="center"><img src="img/eq_6.png" height=40 width=200/></p>
