@@ -3,8 +3,8 @@
 </p>
 
 **Students**:
-<center>Frank Montalvo Ochoa</center>
-<center>Damian Gutierrez</center>
+<p align="center">Frank Montalvo Ochoa</p>
+<p align="center">Damian Gutierrez</p>
 
 ## Montecarlo Integral
 
@@ -24,10 +24,10 @@ The Monte Carlo method can be used to numerically approximate the value of a dou
 3. Compute the approximation to the integral  
 <p align="center"><img src="img/eq_3.png" height=35 width=200></p> 
 4. An estimate for the error is
-<p align="center"><img src="img/eq_4.png" height=35 width=200 /> where: <img src="img/eq_5.png" height=30 width=120 /></p>
+<p align="center"><img src="img/eq_4.png" height=40 width=210 /> where: <img src="img/eq_5.png" height=30 width=120 /></p>
 
 ### Example of Montecarlo double integral 
-<p align="center"><img src="img/eq_6.png" height=50 width=300/></p>
+<p align="center"><img src="img/eq_6.png" height=70 width=350/></p>
 
 
 ```python
