@@ -18,7 +18,7 @@ Monte Carlo integration methods are algorithms to find an approximate evaluation
 
 ### Steps to the  Montecarlo integrate:    
 The Monte Carlo method can be used to numerically approximate the value of a double integral. For a function of two variables the steps are:  
-1. Pick n randomly distributed points  $(x_1,y_1),(x_2,y_2)...(x_n,y_n)$ in the rectangle.  
+1. Pick n randomly distributed points ![eq_1.png](img/eq_1.png) in the rectangle.  
 2. Determine the average value of the function  
 <center>$ f = \frac{1}{n} \sum_{i=1}^n f(x_i,y_i)  $ </center>
 3. Compute the approximation to the integral  
