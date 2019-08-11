@@ -18,16 +18,16 @@ Monte Carlo integration methods are algorithms to find an approximate evaluation
 
 ### Steps to the  Montecarlo integrate:    
 The Monte Carlo method can be used to numerically approximate the value of a double integral. For a function of two variables the steps are:  
-1. Pick n randomly distributed points  <img src="img/eq_1.png" height=32 width=64> in the rectangle.  
+1. Pick n randomly distributed points  <img src="img/eq_1.png" height=20 width=100> in the rectangle.  
 2. Determine the average value of the function  
-<center>$ f = \frac{1}{n} \sum_{i=1}^n f(x_i,y_i)  $ </center>
+<center> <img src="img/eq_2.png" height=40 width=70>  </center>
 3. Compute the approximation to the integral  
-<center>$ \int_a^b (\int_c^d f(x,y) dy) dx = (b-a)*(d-c)*f$ </center>  
+<center><img src="img/eq_2.png" height=30 width=100></center>  
 4. An estimate for the error is
-<center>$ Error = (b-a)*(d-c) \sqrt{\frac{f^2 - (f)^2 }{n}}$ , where:    $f^2 = \frac{1}{n} \sum_{i=1}^n f^2(x_i,y_i) $</center>
+<center><img src="img/eq_3.png" height=30 width=100 /><p>, where: </p><img src="img/eq_4.png" height=25 width=70 /></center>
 
 ### Example of Montecarlo double integral 
-<center> $ f(x)= \int_{0}^{1} \int_{1}^{2} \frac{4\cdot x \cdot y - \log(|{x^2 - y^2}|) \cdot \sin({x}) \cdot \cos({y}) + \sqrt{x \cdot y} }{\cos({x}) \cdot \sin({y})} dxdy$</center>
+<center><img src="img/eq_6.png" height=40 width=200/></center>
 
 
 ```python
