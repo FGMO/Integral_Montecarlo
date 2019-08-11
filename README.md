@@ -3,8 +3,8 @@
 </p>
 
 **Students**:
-<center>Frank Montalvo Ochoa</center>
-<center>Damian Gutierrez</center>
+<p align="center">Frank Montalvo Ochoa</p>
+<p align="center">Damian Gutierrez</p>
 
 ## Montecarlo Integral
 
